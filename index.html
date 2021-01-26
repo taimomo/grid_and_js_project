@@ -4,10 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+      integrity="sha384-vuFJ2JiSdUpXLKGK+tDteQZBqNlMwAjhZ3TvPaDfN9QmbPb7Q8qUpbSNapQev3YF"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="main.js" async></script>
-    <noscript>JavaScript不可能</noscript>
+    <article class="article post">
+      <h1 class="title post__title">grid layoutとjsの構成</h1>
+      <p class="sub post__sub">創作練習をツラツラと記述</p>
+
+      <time class="date post-date" datetime="2020-01-24">
+        <span class="far fa-clock"></span>
+        2020/01/24
+      </time>
+
+      <p class="text post__lead">
+        基本的なgrid layoutを記述するとともにjsの作品を配置。
+      </p>
+
+      <figure class="fig post-fig01">
+        <img class="fig__img" src="" alt="" />
+      </figure>
+      <p class="catch post__catch">
+        シンプルに画像を配置<br />
+        風景写真を掲載。
+      </p>
+
+      <div class="text post__text01">
+        <p>
+          個人的に収集した写真。画質は調整済み。
+          練習用になるべく複雑なケースを使用する
+        </p>
+        <p>取り敢えずのレイアウト。</p>
+      </div>
+
+      <figure class="fig post-fig2">
+        <img class="fig__img" src="" alt="" />
+        <figcaption>こちらはjsを利用した作品</figcaption>
+      </figure>
+      <p class="text post__text02">
+        porodomoタイマー。シンプルな物を土台に少しずつ複雑化。
+      </p>
+
+      <aside class="aside post__sns">
+        <ul class="un-list aside__un-list">
+          <li class="list-item un-list__list-item">
+            <a href="#"><span class="fab fa-twitter" title="Twitter"></span></a>
+          </li>
+          <li class="list-item un-list__list-item">
+            <a href="#"
+              ><span class="fab fa-facebook" title="Facebook"></span
+            ></a>
+          </li>
+          <li class="list-item un-list__list-item">
+            <a href="#"
+              ><span class="fab fa-google-plus-g" title="Google+"></span
+            ></a>
+          </li>
+        </ul>
+      </aside>
+    </article>
   </body>
 </html>
